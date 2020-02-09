@@ -1,0 +1,31 @@
+body {
+    background: #444;
+    margin: 0;
+}
+
+.profile {
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column;
+}
+
+.image {
+    border-radius: 100%;
+    width: 200px;
+    height: 200px;
+    box-shadow: 0 0 20px black;
+    overflow: hidden;
+}
+
+img {
+    height: 200px;
+}
+
+h1 {
+    color: #FFF;
+    font-size: 5em;
+    font-family: sans-serif;
+    text-shadow: 0 0 20px black;
+}
